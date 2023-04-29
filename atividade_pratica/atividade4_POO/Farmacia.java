@@ -1,6 +1,6 @@
-package atividade3_POO;
+package atividade4_POO;
 
-public class Produto {
+public class Farmacia {
 
   private int idProduto;
   private String nome;
@@ -8,7 +8,7 @@ public class Produto {
   private int quantidade;
   private float preco;
 
-  public Produto(int idProduto, String nome, String marca, int quantidade, float preco) {
+  public Farmacia(int idProduto, String nome, String marca, int quantidade, float preco) {
 		this.idProduto = idProduto;
     this.nome = nome;
     this.marca = marca;
@@ -50,9 +50,9 @@ public class Produto {
   
     System.out.println("*******************Dados do Produto**********************");
     System.out.println("Codigo: " + this.idProduto);
-    System.out.println("Nome: " + this.nome);
-    System.out.println("Marca: " + this.marca);     
-    System.out.println("Quantidade: " + this.quantidade);
+    System.out.println("Nome do Produto: " + this.nome);
+    System.out.println("Marc do produto: " + this.marca);     
+    System.out.println("Quantidade disponivel: " + this.quantidade);
     System.out.println("Preço: " + this.preco);
     System.out.println("\n");
   }
