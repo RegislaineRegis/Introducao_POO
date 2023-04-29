@@ -49,7 +49,7 @@ public class Funcionario {
   
     public void visualizar() {
   
-      System.out.println("*******************Dados do Cliente**********************");
+      System.out.println("*******************Dados do Funcionario**********************");
       System.out.println("Codigo: " + this.idFuncionario);
       System.out.println("Nome: " + this.nome);
       System.out.println("Setor: " + this.setor);     
