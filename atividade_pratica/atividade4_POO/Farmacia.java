@@ -51,7 +51,7 @@ public class Farmacia {
     System.out.println("*******************Dados do Produto**********************");
     System.out.println("Codigo: " + this.idProduto);
     System.out.println("Nome do Produto: " + this.nome);
-    System.out.println("Marc do produto: " + this.marca);     
+    System.out.println("Marca do produto: " + this.marca);     
     System.out.println("Quantidade disponivel: " + this.quantidade);
     System.out.println("Preço: " + this.preco);
     System.out.println("\n");
